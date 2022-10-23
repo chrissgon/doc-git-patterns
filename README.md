@@ -2,6 +2,7 @@
 
 ## Referências
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Conventional Commits Patterns](https://medium.com/linkapi-solutions/conventional-commits-pattern-3778d1a1e657)
 - [Commitlint](https://commitlint.js.org/#/)
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [Semantic Versioning](https://semver.org/)
