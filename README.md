@@ -108,7 +108,7 @@ O modelo possui o seguinte fluxo:
 
 O fluxo possui apenas uma branch (`main`).
 
-Com base na `main` são criadas outras branches, como `feat`, `fix` entre outras.
+Com base na `main` são criadas outras branches, como `feat` e `fix`.
 
 A nova branch ao ser finalizada será excluída e terá seu código mesclado na `main`.
 
