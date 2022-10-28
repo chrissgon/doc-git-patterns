@@ -20,7 +20,7 @@ Para manter um padrão conciso o Conventional Commits sugere o modelo:
 
 Os significados de cada elemento são:
 
-`type:` Caracteriza a natureza da mudança. Tem como valores padrões:
+`type`: Caracteriza a natureza da mudança. Tem como valores padrões:
 - `feat`
 - `fix`
 - `docs`
@@ -33,13 +33,13 @@ Os significados de cada elemento são:
 - `chore`
 - `revert`
 
-`scope:` Contextualiza o commit, podendo informar branches, arquivos ou funções.
+`scope`: Contextualiza o commit, podendo informar branches, arquivos ou funções.
 
-`description:` Descrição curta do commit. É recomendado utilizar o imperativo ao invés do pretérito. O intuito seria descrever **o que fará caso aplicado**, dessa forma a expressão - *Caso aplicado irá criar dashboard de casos* - descreve melhor que - *Caso aplicado irá criação de dashboard de casos*.
+`description`: Descrição curta do commit. É recomendado utilizar o imperativo ao invés do pretérito. O commit deve descrever **o que fará caso aplicado**, dessa forma a expressão - *Caso aplicado irá criar dashboard de casos* - descreve melhor que - *Caso aplicado irá criação de dashboard de casos*.
 
-`body:` Descrição longa do commit. Contextualiza com mais informações o `description`.
+`body`: Descrição longa do commit. Contextualiza de forma detalhada o `description`.
 
-`footer:` Rodapé do commit, normalmente informa uma BREAKING CHANGE em concordância com o [SemVer](https://semver.org/). O objetivo é alertar e descrever a incompatibilidade com a versão anterior. Caso não haja uma BREAKING CHANGE, ainda se pode informar usando outra convenção, como [git trailer](https://git-scm.com/docs/git-interpret-trailers).
+`footer`: Rodapé do commit, normalmente informa uma BREAKING CHANGE em concordância com o [SemVer](https://semver.org/). O objetivo é alertar e descrever a incompatibilidade com a versão anterior. Caso não haja uma BREAKING CHANGE, ainda se pode informar usando outra convenção, como [git trailer](https://git-scm.com/docs/git-interpret-trailers).
 
 Exemplos:
 
@@ -47,24 +47,24 @@ Exemplos:
 ``` bash
 docs: correct spelling of CHANGELOG
 ```
-- Commit com escopo
+- Commit com `scope`
 ``` bash
 feat(lang): add Polish language
 ```
-- Commit com descrição longa
+- Commit com `body`
 ``` bash
 fix: prevent racing of requests
 
-Introduce a request id and a reference to latest request. Dismiss
-incoming responses other than from latest request.
+Introduce a request id and a reference to latest request.
+Dismiss incoming responses other than from latest request.
 ```
-- Commit com rodapé BREAKING CHANGE
+- Commit com `footer` BREAKING CHANGE
 ``` bash
 feat: allow provided config object to extend other configs
 
 BREAKING CHANGE: `extends` key in config file is now used for extending other config files
 ```
-- Commit com rodapé
+- Commit com `footer`
 ``` bash
 refactor: change createUser() logs
 
