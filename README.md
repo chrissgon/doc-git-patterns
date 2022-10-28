@@ -1,5 +1,7 @@
 # Git Patterns
 
+### Padrões de Commits e Fluxos para Repositórios Git
+
 *O repositório visa introduzir os padrões de forma sucinta. Para abordagens completas se deve procurar as documentações oficiais.* 
 
 ## Conventional Commits
