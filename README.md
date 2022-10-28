@@ -74,6 +74,15 @@ Refs: #123
 
 Para facilitar a adoção do Conventional Commits, se sugere utilizar o [Commitlint](https://commitlint.js.org/#/) ou [Commitizen](https://github.com/commitizen/cz-cli). Eles fornecem uma CLI que auxilia a aderência da convenção.
 
+## Git Flow
+
+O Git Flow é um modelo de ramificação que proporciona maior controle sobre o código fonte.
+
+O modelo sugere o seguinte fluxo:
+
+![Git Flow Schema]("./gitflow.png")
+
+Para facilitar a implementação do fluxo o Git Flow disponibiliza uma [CLI](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html).
 
 ## Referências
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
