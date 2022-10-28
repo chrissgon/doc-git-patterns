@@ -94,7 +94,7 @@ No fluxo é descrito as seguintes branches:
 
 `feature`: Tem como objetivo a criação de novas funcionalidades. Se origina com base na `develop`.
 
-`release`: Serve como intermediária entre `develop` e `main`. O objetivo é proporcionar um ambiente de homologação, onde validam as novas funcionalidades da `develop`, para serem mescladas na `main`.
+`release`: Serve como intermediária entre `develop` e `main`. O objetivo é proporcionar um ambiente de homologação, onde validam as novas funcionalidades da `develop` para serem mescladas na `main`.
 
 Para facilitar a implementação do fluxo o Git Flow disponibiliza a [Git Flow CLI](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html).
 
