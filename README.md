@@ -98,6 +98,20 @@ No fluxo é descrito as seguintes branches:
 
 Para facilitar a implementação do fluxo o Git Flow disponibiliza a [Git Flow CLI](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html).
 
+## Github Flow
+
+O Git Flow se torna complexo ao ser aplicado em pequenos times. Nesses casos é recomendável a adoção do Github Flow.
+
+O modelo possui o seguinte fluxo:
+
+![Github Flow Schema](./githubflow.png)
+
+O fluxo possui apenas uma branch `main`.
+
+Com base na `main` são criadas outras branches para desenvolver novas funcionalidades ou ajustar erros.
+
+A nova branch ao ser finalizada será excluída, e terá seu código mesclado na `main`.
+
 ## Referências
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Medium - Conventional Commits Pattern](https://medium.com/linkapi-solutions/conventional-commits-pattern-3778d1a1e657)
