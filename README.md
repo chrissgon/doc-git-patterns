@@ -82,7 +82,7 @@ O Git Flow é um modelo de ramificação que proporciona maior controle sobre o 
 
 O modelo sugere o seguinte fluxo:
 
-![Git Flow Schema]("./gitflow.png")
+![Git Flow Schema](./gitflow.png)
 
 Para facilitar a implementação do fluxo o Git Flow disponibiliza uma [CLI](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html).
 
