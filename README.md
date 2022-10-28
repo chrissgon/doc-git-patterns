@@ -84,7 +84,19 @@ O modelo sugere o seguinte fluxo:
 
 ![Git Flow Schema](./gitflow.png)
 
-Para facilitar a implementação do fluxo o Git Flow disponibiliza uma [CLI](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html).
+No fluxo é descrito as seguintes branches:
+
+`main`: Possui o código de produção e permanece viva durante todo o fluxo. Não pode ser modificada diretamente.
+
+`hotfix`: Tem como objetivo ajustar erros em produção. Se origina com base na `main`.
+
+`develop`: Possui o código de desenvolvimento e permanece viva durante todo o fluxo.
+
+`feature`: Tem como objetivo a criação de novas funcionalidades. Se origina com base na `develop`.
+
+`release`: Serve como intermediária entre `develop` e `main`. O objetivo é proporcionar um ambiente de homologação, onde validam as novas funcionalidades da `develop`, para serem mescladas na `main`.
+
+Para facilitar a implementação do fluxo o Git Flow disponibiliza a [Git Flow CLI](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html).
 
 ## Referências
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
