@@ -1,10 +1,12 @@
 # Git Patterns
 
-Padrões para projeto GIT, como fluxo de branches e modelos de commit.
+### Padrões para projetos GIT, como modelos de commit e fluxo de branches.
+
+*O repositório visa introduzir os padrões de forma sucinta. Para abordagens completas sobre os padrões se deve procurar as documentações oficiais.* 
 
 ## Conventional Commits
 
-O desenvolvimento utilizando Git é comum para qualquer desenvolvedor.
+O desenvolvimento utilizando Git é comum para qualquer desenvolvedor, como também a falta de padrões para commits. 
 
 Para manter um padrão conciso o Conventional Commits sugere o modelo:
 
