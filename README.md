@@ -70,6 +70,10 @@ Reviewed-by: Admin
 Refs: #123
 ```
 
+## Commitlint & Commitizen
+
+Para facilitar a adoção do Conventional Commits, se sugere utilizar o [Commitlint](https://commitlint.js.org/#/) ou [Commitizen](https://github.com/commitizen/cz-cli). Eles fornecem uma CLI que auxilia a aderência da convenção.
+
 
 ## Referências
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
