@@ -110,7 +110,7 @@ O fluxo possui apenas uma branch `main`.
 
 Com base na `main` são criadas outras branches para desenvolver novas funcionalidades ou ajustar erros.
 
-A nova branch ao ser finalizada será excluída, e terá seu código mesclado na `main`.
+A nova branch ao ser finalizada será excluída e terá seu código mesclado na `main`.
 
 ## Referências
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
