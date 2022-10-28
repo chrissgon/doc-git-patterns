@@ -106,9 +106,9 @@ O modelo possui o seguinte fluxo:
 
 ![Github Flow Schema](./githubflow.png)
 
-O fluxo possui apenas uma branch `main`.
+O fluxo possui apenas uma branch (`main`).
 
-Com base na `main` são criadas outras branches para desenvolver novas funcionalidades ou ajustar erros.
+Com base na `main` são criadas outras branches, como `feat`, `fix` entre outras.
 
 A nova branch ao ser finalizada será excluída e terá seu código mesclado na `main`.
 
@@ -120,6 +120,7 @@ A nova branch ao ser finalizada será excluída e terá seu código mesclado na 
 - [Semantic Versioning](https://semver.org/)
 - [Cheatsheet Git Flow](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html)
 - [Git Flow Atlassian](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
+- [Github Flow](https://warcontent.com/github-flow/)
 
 ---
 Desenvolvido por [Christopher Gonçalves](https://github.com/chrissgon)
