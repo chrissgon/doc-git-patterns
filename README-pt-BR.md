@@ -4,9 +4,8 @@
 
 _O repositório visa introduzir os padrões de forma sucinta. Para abordagens completas se deve procurar as documentações oficiais._
 
-## 🌍 Translations
+## 🌍 Traduções
 
-- [English](https://github.com/chrissgon/doc-git-patterns/blob/main/README.md)
 - [Português Brasileiro](https://github.com/chrissgon/doc-git-patterns/blob/main/README-pt-BR.md)
 
 ## Conventional Commits
